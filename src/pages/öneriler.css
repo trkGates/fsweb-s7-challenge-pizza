@@ -1,0 +1,94 @@
+
+#hepsi-menü{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+}
+#hepsi-menü div{
+    margin: 25px 10px;
+}
+
+
+/* KART 1 BÖLÜMÜ  */
+#kart1{
+    height:536px;
+    width:636px;
+    background-image: url('../image/örnek-sayfa-kartları/kart-1.png');
+    background-size:contain;
+    border-radius: 1em;
+}
+
+#ozel{
+    padding-top: 20px;
+    padding-left: 25px;
+    width: 40%;
+}
+#özel-Lezzetus-h1{
+    color: white;
+    font-family: 'Quattrocento', serif;
+    font-size: 4em;
+}
+/* KART 2 BÖLÜMÜ  */
+#kart2{
+    background-image: url('../image/örnek-sayfa-kartları/kart-2.png');
+    background-size:contain;
+    height:256px;
+    width:636px;
+    border-radius: 1em;
+
+}
+#burger-menü-h1{
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 40%;
+    font-size: 0.9em;
+}
+#Hackathlon-Burger{
+    font-family: 'Quattrocento', serif;
+    color: white;
+    font-size: 2.3em;
+}
+
+/* KART 3 BÖLÜMÜ */
+#kart3{
+    background-image: url('../image/örnek-sayfa-kartları/kart-3.png');
+    background-size:contain;
+    height:256px;
+    width:636px;
+    border-radius: 1em;
+}
+
+#çok-hızlı{
+    padding-top: 40px;
+    padding-left: 40px;
+    width: 40%;
+    font-size: 0.9em;
+}
+#çoook-red{
+    color: #CE2829;
+}
+#Hackathlon-Burger-h1{
+color: #292929;
+}
+
+
+/* BUTONLAR  */
+.oneri-butonlar{
+    color: #CE2829;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 100px;
+  border: 0px rgb(255, 255, 255) solid;
+  font-size: 1em;
+  font-weight: bolder;
+}
+.oneri-butonlar:hover{
+    background-color: #ffffffcc;
+    transform: scale(1.2);
+    cursor: pointer; 
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+
+

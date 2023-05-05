@@ -1,0 +1,84 @@
+
+#menü-içerik {
+    height: 100vh;
+    background-image: url('../image/mvp-banner.png');
+    
+    background-size: cover; /* Resmi elemanın tamamını kaplayacak şekilde ölçeklendirin */
+    background-position:center; /* Resmi elemanın dikey ve yatay olarak merkezine hizalayın */
+    background-repeat: no-repeat;
+  }
+#menü-içerik{
+    display: flex;
+    justify-content: center;
+   
+}
+#menü-yazıları{
+    text-align: center;
+    color: aliceblue;
+}
+.FONT-Satisfy{ 
+    /* fırsatı kaçırma yazısı */
+    font-family: 'Satisfy', cursive;
+    color: #FDC913;
+    font-size: 1.5em;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.FONT-Barlow-KOD{
+    /* kod acıktırır yazısı */
+    font-family: 'Quattrocento', serif;
+    font-size: 3.5em;
+    margin: 0px;
+    font-weight:inherit;
+    padding-top: 0px;
+    padding-bottom: 15px;
+
+}
+.FONT-Barlow{
+ /* teknolojik yemekler yazısı */
+ font-family: 'Barlow', sans-serif; 
+ font-size: 2em;
+margin: 1em 0em;
+}
+
+#main-button{
+    color: #292929;
+    background-color: #FDC913;
+    padding: 20px 50px;
+    border-radius: 100px;
+  border: 0px rgba(255, 255, 255, 0) solid;
+  font-size: 1.1em;
+  font-weight: bolder;
+  transition-duration: 0.4s;
+ cursor: pointer;    /* fare mouse üzerine gelince el işareti şeklini alır */
+ box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+#main-button:hover{
+    background-color: #fdca13da;
+    transform: scale(1.2);
+    box-shadow: 0 24px 36px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* 
+#main-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  #main-button:hover {
+    background-color: white;
+    color: #4CAF50;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: translateY(-2px);
+  } */
