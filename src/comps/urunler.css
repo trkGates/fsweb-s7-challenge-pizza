@@ -12,6 +12,7 @@
     display: flex;
     justify-content:space-around;
     width: 80%;
+    flex-wrap: wrap;
 }
 .ürün-çeşitleri{
     border-radius: 1em;
@@ -19,6 +20,7 @@
     padding: 15px 40px;
     border-color: #ffffff00;
     box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    margin-bottom: 30px;
 }
 .ürün-çeşitleri:hover{
     box-shadow: 0 24px 36px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);

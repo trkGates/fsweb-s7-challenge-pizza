@@ -20,7 +20,7 @@ margin-bottom: 30px;
 #navbar1{
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 #Menüler-içerik-logolar{
     width: 80%;
@@ -38,7 +38,7 @@ margin-bottom: 30px;
     font-size: 1em;
     transition-duration: 0.4s;
     box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-
+margin-bottom: 15px;
 }
 .icerik-logolar-isimleri:hover{
     background-color: #292929;

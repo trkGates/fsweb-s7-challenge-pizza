@@ -10,7 +10,7 @@ import './menüler.css'
 const Menüler = () => {
   return (
     <div>
-      
+
 <div id='yazilar-menü'>
 <p>en çok paketlenen menüler</p>
 <h2>Acıktıran Kodlara Doyuran Lezzetler...</h2>
@@ -18,7 +18,7 @@ const Menüler = () => {
 
 <div id='navbar1'>
     <div id='Menüler-içerik-logolar'>
-
+      
       <button className='icerik-logolar-isimleri'>
       <img src={Logo1} alt="Logo1"/>
 <p>Ramen</p>
@@ -48,14 +48,10 @@ const Menüler = () => {
       <img src={Logo6} alt="Logo6" />
 <p>Gazlı İçecekler</p>
       </button>
-
-
     </div>
     </div>
-
-
-
     </div>
+    
   )
 }
 
