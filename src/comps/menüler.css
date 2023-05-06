@@ -1,0 +1,57 @@
+#yazilar-menü{
+  text-align: center;
+}
+#yazilar-menü p{
+    font-family: 'Satisfy', cursive;
+ color: #CE2829;
+ font-size: 2em;
+ margin-top: 30px;
+ margin-bottom: 0px;
+}
+#yazilar-menü h2{
+    font-family: 'Barlow', sans-serif; 
+color: #292929;
+font-size: 2.7em;
+font-weight: 500;
+margin-top: 0px;
+margin-bottom: 30px;
+}
+
+
+#navbar1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#Menüler-içerik-logolar{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.icerik-logolar-isimleri{
+    display: flex;
+    padding: 5px 15px;
+    border-radius: 100px;
+    border-color: #ffffff00;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 1em;
+    transition-duration: 0.4s;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.icerik-logolar-isimleri:hover{
+    background-color: #292929;
+    color: #ffffff;
+    box-shadow: 0 24px 36px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;  
+
+}
+.icerik-logolar-isimleri img,p{
+    padding: 0px 5px;
+    font-family: 'Barlow', sans-serif; 
+
+}
+
+

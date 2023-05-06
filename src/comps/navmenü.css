@@ -6,7 +6,7 @@
     padding: 15px 0px;
     }
 #navbaricerik{
-    width: 50%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -14,7 +14,8 @@
 }
 .icerik{
     display: flex;
-}.icerik p,img{
+}
+.icerik p,img{
     margin: auto 5px;;
     font-weight: bold;
 } 

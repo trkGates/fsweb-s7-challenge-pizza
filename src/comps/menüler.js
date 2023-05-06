@@ -16,43 +16,43 @@ const Menüler = () => {
 <h2>Acıktıran Kodlara Doyuran Lezzetler...</h2>
 </div>
 
-<div id='ürün-çeşitleri'>
-<div id='navbar'>
-    <div id='navbaricerik'>
-      <div className='icerik'>
-      <img src={Logo1} alt="Logo1"/>
-<p>YENİ! Kore</p>
-      </div>
+<div id='navbar1'>
+    <div id='Menüler-içerik-logolar'>
 
-      <div className='icerik'>
+      <button className='icerik-logolar-isimleri'>
+      <img src={Logo1} alt="Logo1"/>
+<p>Ramen</p>
+      </button>
+
+      <button className='icerik-logolar-isimleri'>
       <img src={Logo2} alt="Logo2" />
 <p>Pizza</p>
-      </div>
+      </button>
 
-      <div className='icerik'>
+      <button className='icerik-logolar-isimleri'>
       <img src={Logo3} alt="Logo3" />
 <p>Burger</p>
-      </div>
+      </button>
 
-      <div className='icerik'>
+      <button className='icerik-logolar-isimleri'>
       <img src={Logo4} alt="Logo4" />
 <p>Kızartmalar</p>
-      </div>
+      </button>
 
-      <div className='icerik'>
+      <button className='icerik-logolar-isimleri'>
       <img src={Logo5} alt="Logo5" />
 <p>Fast Food</p>
-      </div>
+      </button>
 
-      <div className='icerik'>
+      <button className='icerik-logolar-isimleri'>
       <img src={Logo6} alt="Logo6" />
 <p>Gazlı İçecekler</p>
-      </div>
+      </button>
 
 
     </div>
     </div>
-</div>
+
 
 
     </div>

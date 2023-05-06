@@ -9,8 +9,7 @@ import {
 import Main from "./layout/main";
 import Secenekler from './layout/secenekler';
 import Siparisolustur from './pages/siparisolustur';
-import Navmenü from "./pages/navmenü";
-import Menüler from "./pages/menüler";
+import Navmenü from "./comps/navmenü";
 
 
 const App = () => {

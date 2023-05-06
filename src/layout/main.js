@@ -6,7 +6,7 @@ import {
     Link
   } from "react-router-dom";
 import Secenekler from './secenekler';
-import Navmenü from '../pages/navmenü';
+import Navmenü from '../comps/navmenü';
 import { useHistory } from 'react-router-dom';
 
 import './main.css'
