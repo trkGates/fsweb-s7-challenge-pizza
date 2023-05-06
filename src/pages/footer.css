@@ -1,0 +1,30 @@
+#footer-main{
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+#container{
+    width: 80%;
+}
+
+#footer-container1{
+display: flex;
+justify-content:space-between;
+flex-wrap: wrap;
+padding: 30px 0px;
+
+}
+.footer-contents{
+    max-width: 350px;
+}
+.footer-contents p{
+font-size: 1.1em;
+}
+.footer-contents h2{
+    font-size: 1.8em;
+}
+.footer-contents h1{
+    font-size: 3em;
+    font-family: 'Barlow', sans-serif; 
+}

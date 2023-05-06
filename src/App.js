@@ -6,10 +6,10 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Main from "./layout/main";
-import Secenekler from './layout/secenekler';
-import Siparisolustur from './pages/siparisolustur';
+import Main from "./pages/main";
+import Secenekler from './pages/secenekler';
 import Navmenü from "./comps/navmenü";
+import Footer from "./pages/footer";
 
 
 const App = () => {
@@ -29,7 +29,7 @@ const App = () => {
            <div><Main/></div> 
            <div><Navmenü/></div> 
            <div><Secenekler /></div> 
-
+           <div><Footer/></div>
 
 
         <Switch>
@@ -41,9 +41,7 @@ const App = () => {
 
 
 
-          <Route path="/pizza-olustur">
-            <Siparisolustur />
-          </Route>
+     
 
         </Switch>
 

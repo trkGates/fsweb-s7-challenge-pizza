@@ -1,9 +1,10 @@
 
-
+#ürünler-main{
+    padding: 50px 0px;
+}
 #ürünler-container{
     display: flex;
     justify-content: center;
-    margin: 30px 0px;
 }
 
 
@@ -21,6 +22,7 @@
 }
 .ürün-çeşitleri:hover{
     box-shadow: 0 24px 36px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;  
 
 }
 .puan-satış-fiyat div{
