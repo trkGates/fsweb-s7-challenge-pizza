@@ -13,7 +13,6 @@ import Footer from "../pages/footer";
 const Home = () => {
   return (
     <div>
-        
       <div><Main/></div> 
       <div><Navmenü/></div> 
       <div><Secenekler /></div> 
