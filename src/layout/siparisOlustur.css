@@ -1,0 +1,17 @@
+#siparisH1{
+    font-family: 'Barlow', sans-serif; 
+color: white;
+font-size: 3em;
+margin: 10px 0px;
+}
+#siparis-header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #CE2829;
+}
+#siparis-ürünü{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}

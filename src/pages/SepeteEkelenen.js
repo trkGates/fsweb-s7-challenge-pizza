@@ -2,11 +2,11 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useState,useEffect } from 'react';
 import axios from 'axios';
-
-const Siparis = () => {
+import './SepeteEkelenen.css'
+const SepeteEkelenen = () => {
     
   const { id } = useParams();
-  console.log(id)
+  console.log("merhaba",id)
   const [ürünler, setÜrünler] = useState([]);
   useEffect(() => {
     axios.get(`https://6456b1042e41ccf16923222e.mockapi.io/pizza/${id}`)
@@ -19,7 +19,6 @@ const Siparis = () => {
   }, []);
   return (
     <div>
-      <h2>Sipariş Sayfası</h2>
       <img src={ürünler.foto} alt={ürünler.PizzaAdi} />
       <h3>{ürünler.PizzaAdi}</h3>
       <p>{ürünler.Fiyat}</p>
@@ -31,4 +30,4 @@ const Siparis = () => {
   );
 };
 
-export default Siparis;
+export default SepeteEkelenen;

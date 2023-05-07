@@ -22,7 +22,7 @@ const Urünler = () => {
         <div id='ürünler-container'>
           <div className='ürünler'>
             {ürünler.map(ürün => (
-              <Link key={ürün.id} to={`/siparis/${ürün.id}`}> 
+              <Link key={ürün.id} to={`/siparis-olustur/${ürün.id}`}> 
                 <button className='ürün-çeşitleri'>
                   <img src={ürün.foto} alt={ürün.PizzaAdi} />
                   <div className='puan-satış-fiyat'>
