@@ -16,6 +16,7 @@ const Oneriler = () => {
 
 
 <div id='ikili-menü'>
+  
 <div id='kart2'>
 <div id='burger-menü-h1'>
 <h1 id='Hackathlon-Burger'>Hackathlon Burger Menü</h1>

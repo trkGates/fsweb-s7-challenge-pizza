@@ -1,0 +1,19 @@
+#fiyat-puan-satıs{
+    display: flex;
+    justify-content: space-between;
+}
+#fiyat-puan-satıs h2{
+    margin: 0px;
+    font-size: 2em;
+}
+#fiyat-puan-satıs div{
+    display: flex;
+}
+#fiyat-puan-satıs div p{
+    padding-left: 15px;
+    color: #5F5F5F;
+}
+#urun-acıklaması{
+    color: #5F5F5F;
+}
+

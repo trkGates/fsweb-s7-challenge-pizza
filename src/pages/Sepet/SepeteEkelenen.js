@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useState,useEffect } from 'react';
 import axios from 'axios';
 import './SepeteEkelenen.css'
+
 const SepeteEkelenen = () => {
     
   const { id } = useParams();
@@ -21,10 +22,15 @@ const SepeteEkelenen = () => {
     <div>
       <img src={ürünler.foto} alt={ürünler.PizzaAdi} />
       <h3>{ürünler.PizzaAdi}</h3>
-      <p>{ürünler.Fiyat}</p>
-      <p>{ürünler.Aciklamasi}</p>
-      <p>{ürünler.SatisAdeti}</p>
+
+      <div id='fiyat-puan-satıs'>
+      <h2 id='urun-fiyati'>{ürünler.Fiyat}</h2>
+      <div>
       <p>{ürünler.Paun}</p>
+      <p>({ürünler.SatisAdeti})</p>
+      </div>
+      </div>
+      <p id='urun-acıklaması'>{ürünler.Aciklamasi}</p>
     </div>
 
   );
