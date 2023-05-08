@@ -38,8 +38,6 @@ const Urünler = () => {
             ))}
           </div>
         </div>
-
-    
       </div>
   );
 };

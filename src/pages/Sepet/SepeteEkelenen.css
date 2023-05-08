@@ -1,3 +1,8 @@
+#container_urun{
+    max-width: 30%;
+}
+
+
 #fiyat-puan-satıs{
     display: flex;
     justify-content: space-between;

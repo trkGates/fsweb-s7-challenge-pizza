@@ -1,0 +1,25 @@
+
+#main-container{
+width: 100%;
+}
+form{
+  display: flex;
+  justify-content: center;
+}
+#checkboxDiv{
+
+  width: 25%;
+
+}
+#checkboxDiv1{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.checkboxlar{
+  width: 100px;
+}
+#button-sepet{
+  display: flex;
+  justify-content: center;
+}

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function SiparisOnayi({EklenenUrunlerDatası}) {
+function SiparisOnayi({EklenenUrunlerDatası, siparisNotu}) {
 console.log("Çekilen veriler",EklenenUrunlerDatası);
   return (
     <div>
@@ -10,6 +10,7 @@ console.log("Çekilen veriler",EklenenUrunlerDatası);
           <li key={topping}>{topping}</li>
         ))}
       </ul>
+{siparisNotu}
     </div>
   );
 }

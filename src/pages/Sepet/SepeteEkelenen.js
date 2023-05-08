@@ -19,7 +19,7 @@ const SepeteEkelenen = () => {
       });
   }, []);
   return (
-    <div>
+    <div id='container_urun'>
       <img src={ürünler.foto} alt={ürünler.PizzaAdi} />
       <h3>{ürünler.PizzaAdi}</h3>
 
