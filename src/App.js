@@ -11,12 +11,11 @@ const App = () => {
 
 <Routes>
   <Route path="/*" element={<Home/>}/>
-
   <Route path="/siparis-olustur" element={<SiparisOlustur/>}>
   <Route path="/siparis-olustur/:id" element={<SepeteEkelenen/>}/> 
   </Route>
 
- 
+
 </Routes>
 
     
