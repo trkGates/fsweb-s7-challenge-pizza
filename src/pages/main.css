@@ -2,7 +2,6 @@
 #menü-içerik {
     height: 100vh;
     background-image: url('../image/mvp-banner.png');
-    
     background-size: cover; /* Resmi elemanın tamamını kaplayacak şekilde ölçeklendirin */
     background-position:center; /* Resmi elemanın dikey ve yatay olarak merkezine hizalayın */
     background-repeat: no-repeat;

@@ -1,0 +1,24 @@
+
+#SiparisNotu div{
+    margin: 10px 0px;
+}
+
+#SiparisNotuText{
+
+    font-size: 1.4em;
+    font-weight: 700;
+
+}
+#SiparisNotuİnput textarea{
+    width: 95%;
+    background-color: #FAF7F2;
+    border-color: transparent;
+    border-radius: .7em;
+    height: 5em;
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+#SiparisNotuİnput textarea:focus{
+    padding: 10px;
+}

@@ -1,0 +1,49 @@
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
+
+#onay-sayfasi-main{
+    background-color: #ce2829;
+    height: 100vh;
+color: white;
+
+}
+#onay-sayfasi-1{
+    display: flex;
+    justify-content: center;
+}
+#onay-sayfasi-container-1{
+text-align: center;
+padding-top: 50px;
+}
+
+#onay-sayfasi-container-1 p{ 
+    font-family: 'Satisfy', cursive;
+    color: #FDC913;
+    font-size: 1.5em;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#onay-sayfasi-container-1 h2{
+    font-family: 'Barlow', sans-serif;
+font-size: 3.5em;
+font-weight:lighter;
+}
+#onay-container-2-içerisi{
+    display: flex;
+    justify-content: center;
+}
+#onay-container-2-içerisi{
+    font-size: 1.1em;
+}
+#onay-ürün-adi{
+    text-align: center;
+    font-size: 2em;
+}
+.onay-font-kalin{
+    font-weight: bold;
+}
+

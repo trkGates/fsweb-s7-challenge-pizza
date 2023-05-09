@@ -20,7 +20,7 @@ import './footer.css'
 const Footer = () => {
     return (
         <div id='footer-main'>
-            <div id='main-container'>
+            <div id='main-container-footer'>
 
                 <div id='container1' >
                     <div id='footer-container1'>

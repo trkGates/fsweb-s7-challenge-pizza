@@ -1,14 +1,13 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { useState,useEffect } from 'react';
+import { useEffect } from 'react';
 import axios from 'axios';
-import './SepeteEkelenen.css'
+import './css/SeçilenÜrün.css'
 
-const SepeteEkelenen = () => {
+const SepeteEkelenen = ({ürünler,setÜrünler}) => {
     
   const { id } = useParams();
   console.log("merhaba",id)
-  const [ürünler, setÜrünler] = useState([]);
   useEffect(() => {
     axios.get(`https://6456b1042e41ccf16923222e.mockapi.io/pizza/${id}`)
     .then(response => {
@@ -18,14 +17,16 @@ const SepeteEkelenen = () => {
         console.log(error);
       });
   }, []);
+  
   return (
     <div id='container_urun'>
-      <img src={ürünler.foto} alt={ürünler.PizzaAdi} />
+      <div id='SecilenUrun-img'><img src={ürünler.foto} alt={ürünler.PizzaAdi} /></div>
+      
       <h3>{ürünler.PizzaAdi}</h3>
 
       <div id='fiyat-puan-satıs'>
-      <h2 id='urun-fiyati'>{ürünler.Fiyat}</h2>
-      <div>
+      <h2 id='urun-fiyati'>{ürünler.Fiyat}₺</h2>
+      <div id='puan-adet'>
       <p>{ürünler.Paun}</p>
       <p>({ürünler.SatisAdeti})</p>
       </div>

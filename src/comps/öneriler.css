@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     padding: 15px 0px;
+    flex-wrap: wrap;
 }
 #hepsi-menü div{
     margin: 25px 10px;
@@ -15,7 +16,35 @@
     width:636px;
     background-image: url('../image/örnek-sayfa-kartları/kart-1.png');
     background-size:contain;
+
     border-radius: 1em;
+}
+@media (max-width: 800px)
+{
+    #kart1{
+        height:100%;
+        width:100%;
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media (max-width: 800px)
+{
+    #kart2{
+        height:100%;
+        width:100%;
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media (max-width: 800px)
+{
+    #kart3{
+        height:100%;
+        width:100%;
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 #ozel{

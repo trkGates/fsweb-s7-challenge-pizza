@@ -1,0 +1,76 @@
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: #FAF7F2;
+    border: 0px solid transparent;
+    border-radius: 5px;
+  }
+  
+  .checkmark:before {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 18px;
+    top: 6px;
+    width: 15px;
+    height: 30px;
+    border: solid #000;
+    border-width: 0 3px 3px 0;
+    border-bottom-right-radius: 6px;
+    transform: rotate(45deg);
+  }
+  
+  .checkbox input:checked ~ .checkmark:before {
+    display: block;
+  }
+  
+  .checkbox:hover .checkmark {
+    background-color: #fdca1346;
+  }
+  
+  .checkbox input:checked ~ .checkmark {
+    background-color: #FDC913;
+  }
+  
+  .checkbox input:checked ~ .checkmark:before {
+    border-color: #292929;
+  }
+  #Ürünler{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  #Ürünler label{
+    width: 150px;
+  }
+#MalzemeAdi{
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+#EklenecekMalzemeler-Main h3{
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+#EklenecekMalzemeler-Main p{
+    margin: 0px;
+    color: #818181;
+}

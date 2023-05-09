@@ -1,8 +1,14 @@
 #container_urun{
-    max-width: 30%;
 }
 
-
+#SecilenUrun-img{
+display: flex;
+justify-content: center;
+}
+#container_urun img{
+width: 75%;
+justify-content: center;
+}
 #fiyat-puan-satıs{
     display: flex;
     justify-content: space-between;
@@ -15,14 +21,11 @@
     display: flex;
 }
 #fiyat-puan-satıs div p{
-    padding-left: 15px;
+    padding-left: 50px;
     color: #5F5F5F;
 }
 #urun-acıklaması{
     color: #5F5F5F;
 }
-
-
-
 
 /* -------------- */
