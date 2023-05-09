@@ -19,3 +19,13 @@
     margin: auto 5px;;
     font-weight: bold;
 } 
+@media (max-width: 800px)
+{
+    #navbaricerik{
+        width: 90%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    
+    }
+
+}

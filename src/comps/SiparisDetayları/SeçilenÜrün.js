@@ -19,6 +19,7 @@ const SepeteEkelenen = ({ürünler,setÜrünler}) => {
   }, []);
   
   return (
+
     <div id='container_urun'>
       <div id='SecilenUrun-img'><img src={ürünler.foto} alt={ürünler.PizzaAdi} /></div>
       

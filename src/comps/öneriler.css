@@ -1,12 +1,19 @@
-
+#dsadas{
+}
 #hepsi-menü{
     display: flex;
     justify-content: center;
+
     padding: 15px 0px;
+}
+#hepsi-iç{
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+
 }
 #hepsi-menü div{
-    margin: 25px 10px;
+    margin: 10px 10px;
 }
 
 
@@ -16,36 +23,9 @@
     width:636px;
     background-image: url('../image/örnek-sayfa-kartları/kart-1.png');
     background-size:contain;
-
     border-radius: 1em;
 }
-@media (max-width: 800px)
-{
-    #kart1{
-        height:100%;
-        width:100%;
-        background-size: cover;
-        background-position: center;
-    }
-}
-@media (max-width: 800px)
-{
-    #kart2{
-        height:100%;
-        width:100%;
-        background-size: cover;
-        background-position: center;
-    }
-}
-@media (max-width: 800px)
-{
-    #kart3{
-        height:100%;
-        width:100%;
-        background-size: cover;
-        background-position: center;
-    }
-}
+
 
 #ozel{
     padding-top: 20px;
@@ -66,7 +46,7 @@
     border-radius: 1em;
 
 }
-#burger-menü-h1{
+#burger-menü{
     padding-top: 40px;
     padding-left: 40px;
     width: 40%;
@@ -101,6 +81,9 @@ color: #292929;
 }
 
 
+
+
+
 /* BUTONLAR  */
 .oneri-butonlar{
     color: #CE2829;
@@ -120,4 +103,57 @@ color: #292929;
 }
 
 
+@media (max-width: 700px)
+{
+    #kart1{
+        width:100%;
+        background-size: cover;
+        background-position: center;
+    }
+    #ozel{
+        padding-top: 100px;
+        padding-left: 10px;
+        width: 70%;
+    }
+}
 
+@media (max-width: 700px)
+{
+    #kart2{
+        width:100%;
+        background-size: cover;
+        background-position: center;
+    }
+    #burger-menü{
+        padding-top: 30px;
+        padding-left: 10px;
+        width: 70%;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 700px)
+{
+    #kart3{
+        width:100%;
+        background-size: cover;
+        background-position: center;
+    }
+    #çok-hızlı{
+        padding-top: 30px;
+        padding-left: 10px;
+        width: 70%;
+        font-size: 0.9em;
+    }
+    .oneri-butonlar{
+        padding: 12px 12px;
+        border-radius: 100px;
+      font-size: 1em;
+      font-weight: bolder;
+    }
+    .oneri-butonlar:hover{
+        transform: scale(1.1);
+        box-shadow: 0 5px 5px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+    }
+}

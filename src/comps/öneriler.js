@@ -2,9 +2,9 @@ import React from 'react'
 import './öneriler.css'
 const Oneriler = () => {
   return (
-    <div>
+    <div id='dsadas'>
   <div id='hepsi-menü'>  
-    
+    <div id='hepsi-iç'>
   <div id='tekli-sol-menü'>  
 <div id='kart1'>
 <div id='ozel'>
@@ -16,14 +16,14 @@ const Oneriler = () => {
 
 
 <div id='ikili-menü'>
-  
+
 <div id='kart2'>
-<div id='burger-menü-h1'>
+<div id='burger-menü'>
 <h1 id='Hackathlon-Burger'>Hackathlon Burger Menü</h1>
 <button className='oneri-butonlar'>SİPARİŞ VER</button>
 </div>
-</div>
 
+</div> 
 
 <div id='kart3'>
 <div id='çok-hızlı'>
@@ -33,7 +33,7 @@ const Oneriler = () => {
 <button className='oneri-butonlar'>SİPARİŞ VER</button>
 </div>
 </div>
-
+</div>
 </div>
 
 </div>  

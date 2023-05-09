@@ -1,3 +1,4 @@
+
 body{
   background-color: #ffffff;
 }
@@ -20,36 +21,7 @@ justify-content: center;
   width: 30%;
 }
 
-@media (max-width: 1600px)
-{
-  #container-Page{
-  width: 40%;
-}
-}
-@media (max-width: 1200px)
-{
-  #container-Page{
-  width: 55%;
-}
-}
-@media (max-width: 800px)
-{
-  #container-Page{
-  width: 90%;
-}
-}
-@media (max-width: 426px)
-{
-  #container-Page{
-  width: 90%;
-}
-#siparisH1{
-  text-align: center;
-}
-#Ürünler label{
-  width: 100px;
-}
-}
+
 
 .container-Siparis{
   margin-top: 5px;
@@ -87,3 +59,35 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   transition: transform 0.2s ease-in-out;
 }
 
+
+
+@media (max-width: 1600px)
+{
+  #container-Page{
+  width: 40%;
+}
+}
+@media (max-width: 1200px)
+{
+  #container-Page{
+  width: 55%;
+}
+}
+@media (max-width: 800px)
+{
+  #container-Page{
+  width: 90%;
+}
+}
+@media (max-width: 426px)
+{
+  #container-Page{
+  width: 90%;
+}
+#siparisH1{
+  text-align: center;
+}
+#Ürünler label{
+  width: 100px;
+}
+}
