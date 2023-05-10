@@ -1,28 +1,28 @@
-import React from 'react'
-import { useState } from 'react';
-import './css/EklenecekMalzemeler.css'
+import React from "react";
+import { useState } from "react";
+import "./css/EklenecekMalzemeler.css";
 const urunler = [
-    { name: 'Mısır ' },
-    { name: 'Sucuk ' },
-    { name: 'Sosis ' },
-    { name: 'Ananas ' },
-    { name: 'Kabak ' },
-    { name: 'Biber ' },
-    { name: 'Soğan ' },
-    { name: 'Sarımsak ' },
-    { name: 'Zeytin ' },
-  ];
+  { name: "Mısır " },
+  { name: "Sucuk " },
+  { name: "Sosis " },
+  { name: "Ananas " },
+  { name: "Kabak " },
+  { name: "Biber " },
+  { name: "Soğan " },
+  { name: "Sarımsak " },
+  { name: "Zeytin " },
+];
 
-  const EklenecekMalzemeler = ({eklenenUrunler, setEklenenUrunler})=> {
+const EklenecekMalzemeler = ({ eklenenUrunler, setEklenenUrunler }) => {
+  const [urunlerIsSelected, setUrunlerIsSelected] = useState(
+    urunler.map((urun) => ({
+      ...urun,
+      isSelected: false,
+    }))
+  );
 
-    const [urunlerIsSelected, setUrunlerIsSelected] = useState(urunler.map((urun) => ({
-        ...urun,
-        isSelected: false,
-      })));
-
-
-    const urunButonlari = urunlerIsSelected.map((urun, index) => (
-      <label key={index} className="checkbox">
+  const urunButonlari = urunlerIsSelected.map((urun, index) => (
+    <label key={index} className="checkbox">
       <input
         type="checkbox"
         value={urun.name}
@@ -42,36 +42,17 @@ const urunler = [
         }}
       />
       <span className="checkmark"></span>
-      <span id='MalzemeAdi'>{urun.name}</span>
+      <span id="MalzemeAdi">{urun.name}</span>
     </label>
-        ));
-    
+  ));
 
-
-
-
-    function secilenler(event) {
-        const value = event.target.value;
-        const isChecked = event.target.checked;
-    
-        if (isChecked) {
-          setEklenenUrunler((prevEklenenUrunler) => [...prevEklenenUrunler, value]);
-        } else {
-          setEklenenUrunler((prevEklenenUrunler) =>
-            prevEklenenUrunler.filter((topping) => topping !== value)
-          );
-        }
-      }
   return (
-    <div id='EklenecekMalzemeler-Main'>
-    <h3>Ek Malzemeler</h3>
-    <p>En fazla  6 malzeme seçebilirsiniz. 5₺</p>
-    <div id='Ürünler'>
-    {urunButonlari}
+    <div id="EklenecekMalzemeler-Main">
+      <h3>Ek Malzemeler</h3>
+      <p>En fazla 6 malzeme seçebilirsiniz. 5₺</p>
+      <div id="Ürünler">{urunButonlari}</div>
     </div>
-  </div>
+  );
+};
 
-  )
-}
-
-export default EklenecekMalzemeler
+export default EklenecekMalzemeler;
