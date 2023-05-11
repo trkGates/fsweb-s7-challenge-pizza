@@ -1,5 +1,5 @@
-import React from 'react';
-import './css/PizzaBoyutu.css'
+import React from "react";
+import "./css/PizzaBoyutu.css";
 const HamurBoyutu = ({ secilenBoyut, setSecilenBoyut }) => {
   const sizeOptions = [
     { name: "S", value: "Küçük Boy (S)" },
@@ -14,7 +14,8 @@ const HamurBoyutu = ({ secilenBoyut, setSecilenBoyut }) => {
     }
   };
   return (
-    <div id='PizzaBoyutu-Main'>
+    //label ekle
+    <div id="PizzaBoyutu-Main">
       <h3>Boyut Seç</h3>
       {sizeOptions.map((option) => (
         <input
