@@ -1,7 +1,6 @@
 import React from "react";
 import Sepet_icerikleri from "../pages/Siparis_Sayfasi/Sepet_icerikleri";
 import Footer from "../pages/footer";
-
 import "./siparisOlustur.css";
 import { useEffect } from "react";
 
